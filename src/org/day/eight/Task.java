@@ -20,6 +20,7 @@ public class Task {
 		Robot robot = new Robot();
 		for (int i = 1; i <= 3; i++) {
 		
+		//modified action	
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);}
 		robot.keyPress(KeyEvent.VK_SHIFT);
